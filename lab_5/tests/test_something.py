@@ -1,4 +1,5 @@
 import pytest
+from src.sample import whatever
 
 def test_whatever():
     whatever = 2
