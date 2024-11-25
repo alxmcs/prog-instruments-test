@@ -37,7 +37,7 @@ jobs:
              
     - name: Run tests
       run: |
-       coverage run -m pytest
+       coverage run -m pytest --rootdir=lab5
 
     - name: Calculate code coverage
       run: |
